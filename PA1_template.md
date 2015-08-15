@@ -12,7 +12,8 @@ opts_chunk$set(echo = TRUE, results = 'hold')
 ```r
 library(data.table)
 library(ggplot2) 
-setwd("c:/Users/User/Documents/coursera")
+#setwd("c:/Users/User/Documents/coursera")
+opts_knit$set(base.dir = "c:/Users/User/Documents/coursera")
 activity<-read.csv("activity.csv")
 head(activity)
 ```
